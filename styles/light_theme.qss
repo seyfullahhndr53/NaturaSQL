@@ -1,0 +1,123 @@
+/* NaturaSQL Light Theme */
+QMainWindow {
+    background: qlineargradient(x1: 0, y1: 0, x2: 1, y2: 1,
+                                stop: 0 #f8f9fa, stop: 1 #e9ecef);
+    color: #212529;
+}
+
+QPushButton {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                stop: 0 #4285f4, stop: 1 #1a73e8);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 12px 24px;
+    font-weight: 600;
+}
+
+QPushButton:hover {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                stop: 0 #5294ff, stop: 1 #2d7ceb);
+}
+
+QTextEdit {
+    background: #ffffff;
+    border: 2px solid #dee2e6;
+    border-radius: 12px;
+    color: #212529;
+    padding: 16px;
+}
+
+QTextEdit:focus {
+    border: 2px solid #4285f4;
+}
+
+QTableWidget {
+    background: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 12px;
+    gridline-color: #dee2e6;
+    color: #212529;
+    selection-background-color: #4285f4;
+}
+
+QTableWidget::item {
+    padding: 12px 8px;
+    border-bottom: 1px solid #dee2e6;
+    min-height: 35px;
+    height: 40px;
+}
+
+QTableWidget::item:selected {
+    background: rgba(66, 133, 244, 0.3);
+    color: #ffffff;
+}
+
+QHeaderView::section {
+    background: #f8f9fa;
+    color: #212529;
+    padding: 12px;
+    border: none;
+    border-bottom: 2px solid #4285f4;
+    font-weight: 600;
+}
+
+QLabel {
+    color: #212529;
+}
+
+QComboBox {
+    background: #ffffff;
+    border: 2px solid #dee2e6;
+    border-radius: 8px;
+    padding: 8px 12px;
+    color: #212529;
+}
+
+/* Menu Bar - Light Theme */
+QMenuBar {
+    background: rgba(0, 0, 0, 0.05);
+    color: #212529;
+    border-bottom: 1px solid #dee2e6;
+    padding: 4px;
+}
+
+QMenuBar::item {
+    background: transparent;
+    color: #212529;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+QMenuBar::item:selected {
+    background: rgba(66, 133, 244, 0.1);
+    color: #212529;
+}
+
+QMenu {
+    background: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    color: #212529;
+    padding: 4px;
+}
+
+QMenu::item {
+    background: transparent;
+    color: #212529;
+    padding: 8px 16px;
+    border-radius: 4px;
+    margin: 2px;
+}
+
+QMenu::item:selected {
+    background: #4285f4;
+    color: #ffffff;
+}
+
+QStatusBar {
+    background: rgba(0, 0, 0, 0.05);
+    color: #212529;
+    border-top: 1px solid #dee2e6;
+}
